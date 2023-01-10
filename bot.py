@@ -28,7 +28,7 @@ class Bot(Client):
             print(f"{e}")
             print("Make Sure Bot is admin in force sub channel")             
             self.force_channel = None
-       print(f"{me.first_name} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ⚡️⚡️⚡️")
+     
        
     async def stop(self, *args):
       await super().stop()      
